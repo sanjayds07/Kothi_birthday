@@ -63,48 +63,6 @@ if (giftBtn) {
   });
 }
 
-// Populate gallery
-const photos = [
-  {
-    id: 1,
-    url: "/image/WhatsApp%20Image%202026-02-23%20at%205.02.01%20PM.jpeg",
-    caption: "Together, making beautiful memories"
-  },
-  {
-    id: 2,
-    url: "/image/WhatsApp%20Image%202026-02-23%20at%205.02.02%20PM.jpeg",
-    caption: "Love that spans the world 🌍"
-  },
-  {
-    id: 3,
-    url: "/image/WhatsApp%20Image%202026-02-23%20at%205.02.02%20PM%20(1).jpeg",
-    caption: "Special moments, For me"
-  },
-  {
-    id: 4,
-    url: "/image/WhatsApp%20Image%202026-02-23%20at%205.02.02%20PM%20(2).jpeg",
-    caption: "The bond we share"
-  }
-];
-
-const galleryGrid = document.getElementById('gallery-grid');
-
-if (galleryGrid) {
-  photos.forEach(photo => {
-    const item = document.createElement('div');
-    item.className = 'gallery-item';
-    
-    item.innerHTML = `
-      <img src="${photo.url}" alt="${photo.caption}" referrerpolicy="no-referrer" />
-      <div class="gallery-caption">
-        <p>${photo.caption}</p>
-      </div>
-    `;
-    
-    galleryGrid.appendChild(item);
-  });
-}
-
 // Simple scroll animation observer
 const observerOptions = {
   root: null,
