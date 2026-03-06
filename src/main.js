@@ -67,22 +67,22 @@ if (giftBtn) {
 const photos = [
   {
     id: 1,
-    url: "./image/WhatsApp Image 2026-02-23 at 5.02.01 PM.jpeg",
+    url: "./image/WhatsApp%20Image%202026-02-23%20at%205.02.01%20PM.jpeg",
     caption: "Together, making beautiful memories"
   },
   {
     id: 2,
-    url: "./image/WhatsApp Image 2026-02-23 at 5.02.02 PM.jpeg",
+    url: "./image/WhatsApp%20Image%202026-02-23%20at%205.02.02%20PM.jpeg",
     caption: "Love that spans the world 🌍"
   },
   {
     id: 3,
-    url: "./image/WhatsApp Image 2026-02-23 at 5.02.02 PM (1).jpeg",
+    url: "./image/WhatsApp%20Image%202026-02-23%20at%205.02.02%20PM%20(1).jpeg",
     caption: "Special moments, For me"
   },
   {
     id: 4,
-    url: "./image/WhatsApp Image 2026-02-23 at 5.02.02 PM (2).jpeg",
+    url: "./image/WhatsApp%20Image%202026-02-23%20at%205.02.02%20PM%20(2).jpeg",
     caption: "The bond we share"
   }
 ];
